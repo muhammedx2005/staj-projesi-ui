@@ -1,13 +1,34 @@
 # Staj Projesi - UI Bileşen Kütüphanesi
 
-Bu proje, 20 iş günlük zorunlu yaz stajı kapsamında; modüler SCSS mimarisi (BEM) ve Vanilla JavaScript kullanılarak geliştirilmiştir.
+Bu proje, Bilgisayar Mühendisliği zorunlu yaz stajı kapsamında; **Semantik HTML, modern SCSS (BEM yapısı)** ve **Vanilla JavaScript** kullanılarak, dış kütüphanelere bağımlı kalmadan geliştirilmiştir.
 
-## Mimari Notlar
-- **BEM Mimarisi:** CSS kodları `_buttons.scss`, `_cards.scss` gibi modüler dosyalara ayrılmıştır.
-- **Versiyon Kontrolü:** Geliştirme süreci, Conventional Commits standartlarına uygun şekilde Git üzerinden yönetilmiştir.
-- **Performans:** Dış kütüphane kullanılmadan, tarayıcı performansı ve Lighthouse hedefleri (min 90/100) gözetilerek kodlanmıştır.
+## 🚀 Teknik Yetkinlikler
+* **Mimari:** Modüler BEM (Block Element Modifier) yapısı ile sürdürülebilir CSS.
+* **Responsive Tasarım:** Mobil-öncelikli (320px-1440px) yaklaşım ve grid/flex kullanımı.
+* **Erişilebilirlik:** `aria-*` etiketleri ve klavye ile erişim uyumluluğu.
+* **Performans:** Lighthouse (Performance, Accessibility, Best Practices, SEO) skorlarında **100/100** tam puan.
+* **Versiyon Kontrolü:** Conventional Commits standartlarına uygun Git iş akışı.
 
-## Kurulum
-1. `git clone https://github.com/muhammedx2005/staj-projesi-ui.git`
-2. `npm install`
-3. `npm run dev`
+## 🛠 Kullanılan Teknolojiler
+* Vite (Build Tool)
+* Vanilla JavaScript (DOM Manipulation)
+* SCSS (Modular CSS)
+
+## 📊 Performans Raporu
+Projenin Lighthouse analiz sonuçları, üretim (production) modunda **100/100** olarak optimize edilmiştir.
+
+![Lighthouse Performans Raporu](docs/lighthouse-report.png)
+
+## 📦 Kurulum
+```bash
+# Projeyi klonla
+git clone [https://github.com/muhammedx2005/staj-projesi-ui.git](https://github.com/muhammedx2005/staj-projesi-ui.git)
+
+# Bağımlılıkları yükle
+npm install
+
+# Geliştirme modunda çalıştır
+npm run dev
+
+# Üretim için build al
+npm run build
